@@ -1,0 +1,51 @@
+.container {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.gallery {
+    max-width: 1024px;
+    height: 480px;
+    margin: 0 auto;
+    border: solid 2px blue;
+}
+
+.gallery-slider {
+    max-width: 1024px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.product {
+    margin-top: 30px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.price {
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.price:hover,
+.next:hover {
+    background-color: rgb(53, 53, 254);
+}
